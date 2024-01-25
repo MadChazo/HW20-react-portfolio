@@ -10,14 +10,17 @@ function Contact() {
           Name:
           <input type="text" name="name" id="nameInput" />
         </label>
+        <br></br>
         <label>
           Email:
           <input type="email" name="email" id="emailInput" />
         </label>
+        <br></br>
         <label>
           Message:
           <input type="text" name="message" id="messageInput" />
         </label>
+        <br></br>
         <input type="submit" value="Submit" id="submitBtn" />
       </form>
     </div>

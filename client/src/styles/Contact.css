@@ -1,0 +1,16 @@
+input {
+  margin: 10px;
+}
+
+#nameInput {
+  width: 400px;
+}
+
+#emailInput {
+  width: 400px;
+}
+
+#messageInput {
+  width: 400px;
+  height: 300px;
+}

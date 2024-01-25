@@ -1,0 +1,36 @@
+#portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#portfolioTitle {
+  width: 100%;
+}
+
+.card {
+  background-color: var(--accent-gray);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 15px;
+  width: 500px;
+}
+
+.projectTitle {
+  width: 100%;
+}
+
+.projectPic {
+  height: 300px;
+}
+
+.spacer {
+  width: 100%;
+}
+
+.projectLink {
+  text-decoration: none;
+  margin: 5px;
+  color: var(--accent-salmon);
+}

@@ -1,0 +1,7 @@
+.profs {
+  text-align: left;
+}
+
+#downloadLink {
+  color: var(--accent-salmon);
+}

@@ -2,11 +2,11 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   box-sizing: border-box;
 
-  --bg-color: #484A47;
-  --secondary-rose: #A37774;
-  --main-text-color: #E0AC9D;
-  --accent-gray: #5C6D70;
-  --accent-salmon: #E88873;
+  --bg-color: #484a47;
+  --secondary-rose: #a37774;
+  --main-text-color: #e0ac9d;
+  --accent-gray: #5c6d70;
+  --accent-salmon: #e88873;
 
   color: var(--main-text-color);
   background-color: var(--bg-color);
@@ -16,4 +16,30 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+header {
+  background-color: var(--secondary-rose);
+}
+
+#navTabs,
+#footLinks {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+li {
+  margin: 10px;
+}
+
+ul a {
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+footer {
+  margin-top: 10px;
+  border-top: solid var(--accent-gray);
 }
